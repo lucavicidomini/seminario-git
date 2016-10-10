@@ -2,6 +2,10 @@
 
 ## Istruzioni
 
+Nella sezione release https://github.com/lucavicidomini/seminario-git/releases sono disponibili i pacchetti precompilati contenenti i file necessari a visualizzare il seminario con un browser web (testato solo con Chrome) senza dover installare Node.js o PHP.
+
+## Compilazione
+
 Nota: PHP è richiesto solo per effettuare in modo automatico l'inclusione delle slide presenti nella directory `slides`.
 
 ```bash
