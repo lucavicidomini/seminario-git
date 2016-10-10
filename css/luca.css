@@ -1,0 +1,79 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.red { color: #ef5350; }
+
+.green { color: #66bb6a; }
+
+.reveal h1 span,
+.reveal h2 span,
+.reveal h3 span,
+.reveal h4 span {
+	font-size: 60%;
+}
+
+.reveal h1 span::before,
+.reveal h2 span::before,
+.reveal h3 span::before,
+.reveal h4 span::before {
+	content: ' :: ';
+}
+
+.reveal small { vertical-align: baseline; }
+
+.reveal b {
+	color: #264bd2;
+	color: #78b9e6;
+}
+
+.reveal kbd,
+.reveal code,
+.reveal samp {
+	font-family: "Consolas", "Lucida Console", monospace;
+	font-size: 90%;
+}
+
+.reveal code {
+	color: #dcdcdc;
+	background-color: #3F3F3F;
+	border-radius: 4px;
+}
+
+.reveal li li {	font-size: 80%; }
+.reveal li li li {	font-size: 60%; }
+
+.reveal .well {
+	margin-top: .6em;
+	margin-bottom: .6em;
+	padding: .3em;
+	border: 6px dotted rgba(0, 0, 0, .2);
+}
+
+.reveal .footnote {
+	font-size: 40%;
+	width: 100%;
+	padding-top: 1em;
+	margin-top: 1em;
+	font-style: normal;
+	border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.reveal section.dark-bg,
+.reveal section.dark-bg h1,
+.reveal section.dark-bg h2,
+.reveal section.dark-bg h3,
+.reveal section.dark-bg h4 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.reveal section.light-bg,
+.reveal section.light-bg h1,
+.reveal section.light-bg h2,
+.reveal section.light-bg h3,
+.reveal section.light-bg h4 {
+	color: #515658;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}

@@ -1,0 +1,156 @@
+<section>
+	<h2>Commit</h2>
+	<ul>
+		<li>Aggiungere un file (all'area di staging) vuol dire che git deve segnalare eventuali <b>modifiche</b> al file.</li>
+		<li>Per salvare in modo definitivo le modifiche al file all'interno del repository, dobbiamo fare <b>commit</b> delle modifiche.</li>
+	</ul>
+
+	<div class="well">
+		<h3>Ricorda!</h3>
+		git memorizza modifiche, non file
+	</div>
+</section>
+
+<section>
+	<h2>Commit <span>Cos'è</span></h2>
+
+	<div class="well">
+		<small>&hellip; una definizione pane e puparuoli &hellip;</small>
+		<br>Un commit è un insieme di <u>modifiche</u> descritte da un <u>messaggio</u>
+	</div>
+
+	<ul>
+		<li>Nota:
+			<ul>
+				<li><u>modifiche</u>: i cambiamenti fatti sui file che abbiamo aggiunto all'indice</li>
+				<li><u>messaggio</u>: il motivo per cui abbiamo effettuato le modifiche</li>
+			</ul></li>
+	</ul>
+</section>
+
+<section>
+	<h2>Commit message<span>Cosa scrivere?</span></h2>
+	<ul>
+		<li>Quando fate delle modifiche, dovete chiedervi:
+			<br>&ldquo;Cosa sto facendo?&rdquo;&sup1;.
+			<ul>
+				<li>Aggiungete meta-<i>contenuto</i> al commit.</li>
+				<li><i>Non unite</i> motivazioni diverse in un singolo commit.</li>
+			</ul>
+		</li>
+		<li>Esempi:
+			<ul>
+				<li>Refactor class Persona as Person</li>
+				<li>Fix bug with Unicode characters</li>
+				<li>New feature: save your contacts to the cloud</li>
+			</ul></li>
+	</ul>
+	<div class="footnote">
+		<ol><li>Intendo del codice, non della vostra vita.</li></ol>
+	</div>
+</section>
+
+<section>
+	<h2>Commit message<span>Cosa <b>non</b> scrivere?</span></h2>
+	<ul>
+		<li>commit</li>
+		<li>plug-in update, bug fix, more work, minor changes, oopsie, wtf</li>
+		<li>Work on feature: Export as Excel (&times;20)</li>
+		<li>Fix BUG-9284</li>
+	</ul>
+
+	<div class="footnote">
+		Fonte: <a href="http://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/">http://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/</a>
+	</div>
+</section>
+
+<section>
+	<h2>Commit message<span>Cosa <b>non</b> scrivere? (2)</span></h2>
+	<ul>
+		<li>Change X constant to be 10</li>
+		<li>I'll send an S.O.S. to the world / I'll send an S.O.S. to the world / I hope that someone gets my / I hope that someone gets my / I hope that someone gets my / Message in a commit</li>
+		<li><a href="http://whatthecommit.com/">whatthecommit.com</a></li>
+	</ul>
+	<iframe class="stretch" src="http://whatthecommit.com/"></iframe>
+
+	<div class="footnote">
+		Fonte: <a href="http://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/">http://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/</a>
+	</div>
+</section>
+
+<section>
+	<h2>Staging area (reprise)</h2>
+	<img src="images/add-two.png">
+	<!-- <img src="images/added-two.png"> -->
+</section>
+
+<section>
+	<h2>git commit</h2>
+	<img src="images/gitignore-commit.png">
+</section>
+
+<section>
+	<h2>git commit (2)</h2>
+	<img src="images/gitignore-commit-msg.png">
+</section>
+
+<section>
+	<h2>Committed</h2>
+	<img src="images/gitignore-committed.png">
+</section>
+
+<section>
+	<h2>Un ultimo commit (per ora)</h2>
+	<img src="images/hello-first-commit-msg.png">
+</section>
+
+<section>
+	<h2>Git history</h2>
+	<img src="images/gk-after-2nd-commit.png">
+</section>
+
+<section>
+	<h2>Git head</h2>
+	<img src="images/gk-few-commits.png">
+	<blockquote>
+		Puntatore al commit corrente
+	</blockquote>
+</section>
+
+<section>
+	<h2>Git history</h2>
+	<img src="images/gk-few-diff-general.png">
+</section>
+
+<section>
+	<h2>Git diff</h2>
+	<img src="images/gk-few-diff-detail.png">
+	<div class="footnote">
+		@@ -[prima riga visualizzata nel file originale],[righe di contesto + numero di righe eliminate]
+		<br>+[prima riga visualizzata nel file modificato],[righe di contesto + numero di righe aggiunte] @@
+	</div>
+</section>
+
+<section>
+	<h2>Git head (II)</h2>
+	<img src="images/gk-few-commit-head.png">
+</section>
+
+<section>
+	<h2>Git checkout</h2>
+	<ul>
+		<li>Naviga tra i commit</li>
+		<li>Modifica la working directory</li>
+		<li>Cambiamenti locali non committed vengono persi</li>
+	</ul>
+	<img src="images/gk-few-commit-head.png">
+</section>
+
+<section>
+	<h2>Git stash</h2>
+	<ul>
+		<li>Aggiunge le modifiche alle working directory ad uno stack e resetta</li>
+		<li><kbd>stash pop</kbd> per riprenderle</li>
+	</ul>
+	<img src="images/gk-few-commit-head.png">
+</section>

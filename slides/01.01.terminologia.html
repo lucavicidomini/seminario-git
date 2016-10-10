@@ -1,0 +1,69 @@
+<section>
+	<h2>Working directory</h2>
+	<p><img src="images/empty-project.png" style="clip: rect(0, 0, 600px, 200px);"></p>
+</section>
+
+<section>
+	<h2>.gitignore</h2>
+	<img src="images/gitignore.png">
+</section>
+
+<section>
+	<h2>.gitignore<span>Cosa &ldquo;gitignorare&rdquo;</span></h2>
+	<ul>
+		<li>File che non fanno parte del progetto
+			<ul>
+				<li>relativi al S/O (<kbd>Thumbs.db</kbd>, <kbd>.DS_Store</kbd>)</li>
+				<li>relativi all'IDE</li>
+				<li>log</li>
+			</ul></li>
+		<li>File usati solo da voi
+			<ul>
+				<li>credenziali&sup1;</li>
+			</ul></li>
+		<li>File generati da altri processi
+			<ul>
+				<li>generati da sass/less</li>
+				<li>composer, bower, npm</li>
+			</ul></li>
+	</ul>
+	<div class="footnote">
+		<ol>
+			<li>Potenzialmente, le informazioni diffuse su Internet non possono più essere censurate. Questo è particolarmente vero per taluni tipi di foto e video, ma immagino che la regola sia abbastanza valida anche per username e password.</li>
+		</ol>
+	</div>
+</section>
+
+<section>
+	<h2>git init</h2>
+	<div style="position: relative;">
+		<img src="images/git-init-gui-01.png">
+		<img src="images/git-init-gui-02.png" class="fragment fade-in" style="position: absolute; bottom: 15%; right: 15%;">
+	</div>
+</section>
+
+<section>
+	<h2>Untracked</h2>
+	<img src="images/gitignore-untracked.png">
+	<blockquote>
+		Non esistono versioni del file memorizzate nell'indice.
+	</blockquote>
+</section>
+
+<section>
+	<h2>Untracked (2)</h2>
+	<img src="images/untracked-two.png">
+</section>
+
+<section>
+	<h2>git add</h2>
+	<img src="images/add-two.png">
+</section>
+
+<section>
+	<h2>Staging area</h2>
+	<img src="images/added-two.png">
+	<blockquote>
+		È un buffer che contiene le modifiche che saranno salvate nell'indice al prossimo commit.
+	</blockquote>
+</section>

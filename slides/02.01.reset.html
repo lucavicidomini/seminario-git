@@ -1,0 +1,63 @@
+<section>
+	<h2>Git reset</h2>
+	<blockquote>
+		Resetta HEAD ad uno specifico stato
+	</blockquote>
+	<table>
+		<tr>
+			<th>modalità</th>
+			<th>sposta HEAD</th>
+			<th>modifica indice</th>
+			<th>modifica working directory</th>
+		</tr>
+		<tr>
+			<td>soft</td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>mixed</td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>hard</td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+			<td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
+		</tr>
+	</table>
+</section>
+
+<section>
+	<img src="images/reset-example-gk.png">
+	<img src="images/reset-example-resume-hl.png">
+</section>
+
+<section>
+	<h2>git reset<span>soft</span></h2>
+	<img src="images/soft-reset-ui.png">
+</section>
+
+<section>
+	<h2>git reset<span>soft</span></h2>
+	<img src="images/reset-example-gk.png" style="filter: grayscale(50%); opacity: .75;">
+	<img src="images/soft-reset-after-gk.png">
+	<p>git ricorda che i due file erano nell'indice e li mette in staging</p>
+</section>
+
+<section>
+	<h2>git reset<span>mixed</span></h2>
+	<img src="images/reset-example-gk.png" style="filter: grayscale(50%); opacity: .75;">
+	<img src="images/mixed-reset-after-gk.png">
+	<p>git fa finta di non conoscere i due file</p>
+</section>
+
+<section>
+	<h2>git reset<span>hard</span></h2>
+	<img src="images/reset-example-gk.png" style="filter: grayscale(50%); opacity: .75;">
+	<img src="images/hard-reset-after-gk.png">
+	<p>git sovrascrive i file</p>
+</section>

@@ -1,0 +1,67 @@
+<section>
+	<p>Torniamo indietro all'attimo prima di scegliere di fare merge...</p>
+	<img src="images/conflict-before-merge.png">
+	<p><i>(Sì, con hard reset)</i></p>
+</section>
+
+<section>
+	<h2>Rebase</h2>
+	<img src="images/rebase-before.png">
+</section>
+
+<section>
+	<h2>Rebase VS Merge</h2>
+	<ul>
+		<li>Rebase <i>customization</i> onto <i>master</i>
+			<ol>
+				<li>Reset <i>customization</i> al momento prima della sua creazione</li>
+				<li>Applica a <i>customization</i> le modifiche presenti in <i>master</i></li>
+				<li>Ri-applica a <i>customization</i> le modifiche annullate dal reset al passo 1</li>
+			</ol></li>
+		<li><i>customization</i> contiene tutte le modifiche fatte a <i>master</i>, più le sue</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Rebase</h2>
+	<img src="images/rebase-ui.png">
+	<div class="footnote">(l'immagine è vecchia)</div>
+</section>
+
+<section>
+	<h2>Rebase</h2>
+	<h3 class="fragment">customization onto master</h3>
+	<img src="images/rebase-customization-onto-master.png">
+</section>
+
+<section>
+	<h2>Rebase</h2>
+	<h3 class="fragment">master onto customization</h3>
+	<img src="images/rebase-master-onto-customization.png">
+</section>
+
+<section>
+	<h2>Rebase sì? Rebase no? Rebase gnamme</h2>
+	<table>
+		<tr>
+			<td>
+				<i class="fa fa-thumbs-up green"></i><br>
+				Sui branch locali e a breve termine
+			</td>
+			<td>
+				<i class="fa fa-thumbs-down red"></i><br>
+				Sui branch pubblici e/o condivisi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa fa-thumbs-up green"></i><br>
+				Quando la pulizia della cronologia è più importante del suo contenuto.
+			</td>
+			<td>
+				<i class="fa fa-thumbs-down red"></i><br>
+				Quando è importante tener traccia di tutta la storia delle modifiche
+			</td>
+		</tr>
+	</table>
+</section>

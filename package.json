@@ -1,0 +1,27 @@
+{
+  "name": "seminario-git",
+  "version": "1.0.0",
+  "description": "Un seminario su Git.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucavicidomini/seminario-git.git"
+  },
+  "keywords": [
+    "revealjs",
+    "seminario",
+    "git",
+    "slide",
+    "isislab",
+    "unias"
+  ],
+  "author": "Luca Vicidomini",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/lucavicidomini/seminario-git/issues"
+  },
+  "homepage": "https://github.com/lucavicidomini/seminario-git#readme"
+}

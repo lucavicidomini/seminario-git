@@ -1,0 +1,107 @@
+<section>
+	<h2>Git clone</h2>
+	<ul>
+		<li>Posso clonare un repository con il comando <b>clone</b></li>
+		<li>Il clone conterrà una copia di indice, storia e del repository originale
+			<ul>
+				<li>La working directory sarà un checkout di HEAD</li>
+			</ul>
+		</li>
+		<li>Il clone avrà un riferimento al repository originale che chiamerà <b>origin</b></li>
+	</ul>
+</section>
+
+<section>
+	<h2>Branch remoti</h2>
+	<ul>
+		<li>Uno dei principi di git è la collaborazione</li>
+		<li>Più utenti possano lavorare su un repository condiviso &ndash; ad esempio su <i class="fa fa-github" aria-hidden="true"></i> GitHub</li>
+ 		<li>Quindi, di default, i branch remoti che non sono sul repository locale vengono nascosti</li>
+	</ul>
+</section>
+
+<section>
+	<h2>git clone</h2>
+	<img src="images/dolly.png">
+</section>
+
+<section>
+	<h2>git fetch</h2>
+	<img src="images/add-license-origin.png">
+</section>
+
+<section>
+	<h2>git fetch</h2>
+	<img src="images/add-license-fetch.png">
+</section>
+
+<section>
+	<h2>git merge</h2>
+	<img src="images/add-license-gk.png">
+</section>
+
+<section>
+	<h2>git pull</h2>
+	<ul>
+		<li>Le operazioni <kbd>fetch</kbd> sono quasi sempre seguite da un <kbd>merge</kbd></li>
+		<li>Possiamo usare il comando <b><kbd>git pull</kbd></b>
+			<ul>
+				<li>non è altro che un <kbd>fetch</kbd> seguito da <kbd>merge</kbd>
+			</ul>
+	</ul>
+</section>
+
+<section>
+	<h2>Bare repository</h2>
+	<ul>
+		<li>È un repository che:
+			<ul>
+				<li>Non ha una working directory</li>
+				<li>È usato solo per la condivisione</li>
+			</ul></li>
+	</ul>
+</section>
+
+<section>
+	<h2>GitHub</h2>
+	Assumiamo di aver creato un repository vuoto su GitHub
+	<img src="images/github-hello.png">
+</section>
+
+<section>
+	<h2>Add remote</h2>
+	<img src="images/add-remote.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<img src="images/added-remote.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<img src="images/pushing.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<img src="images/pushed.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<img src="images/pushed-commit.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<img src="images/pushed-branch.png">
+</section>
+
+<section>
+	<h2>git push</h2>
+	<ul>
+		<li>Solo su <b>bare repository</b></p>
+		<li>Se origin è <i>avanti</i>, devo allineare il repository locale prima di fare pull</li>
+	</ul>
+</section>
